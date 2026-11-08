@@ -35,7 +35,7 @@ redeploy.
   "totalTime": 45,
   "servings": "4",
   "difficulty": "Easy",
-  "categories": ["Dinner", "Vegetarian"],
+  "categories": ["Dinner", "Comfort Food"],
   "tags": ["one-pan", "weeknight", "lemon"],
   "featured": false,
   "ingredients": [

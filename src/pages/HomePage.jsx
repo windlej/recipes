@@ -165,7 +165,7 @@ export default function HomePage() {
                 type="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search chicken, pasta, under 30…"
+                placeholder="Search chicken, soup, chocolate…"
                 className="field field-pill h-16 border-[3px] pl-14 pr-16 text-base sm:text-lg"
                 autoComplete="off"
               />
@@ -501,7 +501,15 @@ export default function HomePage() {
           </div>
 
           {sorted.length > 0 ? (
-            <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+            <div
+              className={`mt-7 grid grid-cols-1 gap-4 sm:gap-5 ${
+                sorted.length === 1
+                  ? 'mx-auto max-w-xl'
+                  : sorted.length === 2
+                    ? 'mx-auto max-w-4xl sm:grid-cols-2'
+                    : 'sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
+              }`}
+            >
               {sorted.map((recipe, index) => (
                 <RecipeCard key={recipe.id} recipe={recipe} priority={index < 4} />
               ))}

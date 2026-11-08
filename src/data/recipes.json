@@ -4,633 +4,160 @@
     "title": "Windle Family Recipes",
     "updated": "2026-11-07",
     "categories": [
-      "Breakfast",
-      "Lunch",
       "Dinner",
       "Desserts",
-      "Vegetarian",
-      "Quick Meals",
       "Comfort Food",
       "High Protein"
     ],
     "difficulties": [
       "Easy",
-      "Medium",
-      "Advanced"
+      "Medium"
     ]
   },
   "recipes": [
     {
-      "id": "lemon-herb-chicken-thighs",
-      "title": "Lemon-Herb Chicken Thighs",
-      "description": "Crispy-skinned chicken roasted over lemony potatoes with garlic and thyme. One pan, almost no fuss, and the kind of dinner that makes the kitchen smell like a Sunday.",
-      "image": "images/recipes/lemon-herb-chicken.jpg",
-      "imageAlt": "Golden roasted chicken thighs and drumsticks on a white plate.",
+      "id": "easy-rotisserie-chicken-noodle-soup",
+      "title": "Easy Rotisserie Chicken Noodle Soup",
+      "description": "A one-pot shortcut soup with rotisserie chicken, Amish egg noodles, and a butter finish. Deep, cozy flavour without a whole day at the stove.",
+      "image": "images/recipes/chicken-noodle-soup.svg",
+      "imageAlt": "Flat Bauhaus-style illustration of a white bowl of chicken noodle soup with steam",
       "prepTime": 15,
-      "cookTime": 35,
-      "totalTime": 50,
-      "servings": "4",
+      "cookTime": 45,
+      "totalTime": 60,
+      "servings": "7–8",
       "difficulty": "Easy",
-      "categories": [
-        "Dinner",
-        "High Protein"
-      ],
-      "tags": [
-        "chicken",
-        "one-pan",
-        "gluten-free",
-        "weeknight",
-        "lemon"
-      ],
-      "featured": true,
-      "ingredients": [
-        {
-          "group": "Chicken & potatoes",
-          "amount": "2 lb",
-          "item": "chicken thighs",
-          "note": "bone-in, skin-on, about 6 thighs"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1 1/2 lb",
-          "item": "baby potatoes",
-          "note": "halved"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "2 tbsp",
-          "item": "olive oil"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1 tsp",
-          "item": "smoked paprika"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1 tsp",
-          "item": "dried thyme"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1",
-          "item": "lemon",
-          "note": "zested, then sliced"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "4 cloves",
-          "item": "garlic",
-          "note": "smashed"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1 tsp",
-          "item": "salt"
-        },
-        {
-          "group": "Chicken & potatoes",
-          "amount": "1/2 tsp",
-          "item": "black pepper"
-        },
-        {
-          "group": "To finish",
-          "amount": "1 handful",
-          "item": "parsley",
-          "note": "roughly chopped",
-          "optional": true
-        }
-      ],
-      "steps": [
-        "Heat the oven to 425°F (220°C). Pat the chicken thighs thoroughly dry, then season both sides with salt, pepper, smoked paprika, and the lemon zest.",
-        "Toss the potatoes with olive oil, garlic, dried thyme, and another pinch of salt. Spread them in a single layer in a large roasting pan or ovenproof skillet.",
-        "Nestle the chicken, skin-side up, among the potatoes. Add the lemon slices to the pan. Do not crowd the chicken — the skin needs room to crisp.",
-        "Roast for 30–35 minutes, until the skin is deep golden and a thermometer in the thickest part of the thigh reads 175°F (79°C).",
-        "If the skin needs more colour, move the pan to the top rack and broil for 2–3 minutes. Watch it closely.",
-        "Rest for 5 minutes, scatter with parsley if using, and spoon the pan juices over the potatoes before serving."
-      ],
-      "notes": "No fresh thyme? Use 1 teaspoon of dried thyme in the potatoes and tuck a few rosemary sprigs around the chicken if you have them. The pan juices are the best part — serve this with crusty bread to mop them up.",
-      "source": "Windle family weeknight rotation"
-    },
-    {
-      "id": "smoky-black-bean-tacos",
-      "title": "Smoky Black Bean Tacos",
-      "description": "Charred tortillas, creamy chipotle beans, and all the crunchy things. A 25-minute dinner that is happy to be made from the pantry.",
-      "image": "images/recipes/black-bean-tacos.jpg",
-      "imageAlt": "Two crispy black bean tacos with lettuce, sour cream and rice on a white plate.",
-      "prepTime": 10,
-      "cookTime": 15,
-      "totalTime": 25,
-      "servings": "4",
-      "difficulty": "Easy",
-      "categories": [
-        "Dinner",
-        "Vegetarian",
-        "Quick Meals"
-      ],
-      "tags": [
-        "beans",
-        "under-30-min",
-        "spicy",
-        "budget",
-        "crowd-pleaser",
-        "tacos"
-      ],
-      "featured": true,
-      "ingredients": [
-        {
-          "group": "Beans",
-          "amount": "2 cans (14 oz each)",
-          "item": "black beans",
-          "note": "drained and rinsed"
-        },
-        {
-          "group": "Beans",
-          "amount": "1 tbsp",
-          "item": "olive oil"
-        },
-        {
-          "group": "Beans",
-          "amount": "1 small",
-          "item": "red onion",
-          "note": "finely chopped, divided"
-        },
-        {
-          "group": "Beans",
-          "amount": "2 cloves",
-          "item": "garlic",
-          "note": "minced"
-        },
-        {
-          "group": "Beans",
-          "amount": "1–2 tsp",
-          "item": "chipotle in adobo",
-          "note": "minced, plus a little sauce"
-        },
-        {
-          "group": "Beans",
-          "amount": "1/2 tsp",
-          "item": "ground cumin"
-        },
-        {
-          "group": "Beans",
-          "amount": "1/2 tsp",
-          "item": "salt"
-        },
-        {
-          "group": "To serve",
-          "amount": "8",
-          "item": "corn tortillas"
-        },
-        {
-          "group": "To serve",
-          "amount": "1",
-          "item": "avocado",
-          "note": "sliced"
-        },
-        {
-          "group": "To serve",
-          "amount": "1",
-          "item": "lime",
-          "note": "cut into wedges"
-        },
-        {
-          "group": "To serve",
-          "amount": "1 handful",
-          "item": "cilantro",
-          "note": "torn"
-        },
-        {
-          "group": "To serve",
-          "amount": "1/2 cup",
-          "item": "feta",
-          "note": "crumbled, or cotija",
-          "optional": true
-        }
-      ],
-      "steps": [
-        "Warm the olive oil in a wide skillet over medium heat. Add half the red onion and cook for 3 minutes, until soft. Add the garlic, chipotle, and cumin and stir for 30 seconds.",
-        "Add the black beans and 1/4 cup water. Season with salt, bring to a simmer, and cook for 6–8 minutes, mashing about a third of the beans with a fork until the mixture is creamy but still chunky.",
-        "While the beans cook, char the tortillas directly over a gas burner for 20–30 seconds per side, or warm them in a dry skillet. Wrap them in a clean towel to stay soft.",
-        "Taste the beans and adjust: more chipotle for heat, a squeeze of lime for brightness, salt if it tastes flat.",
-        "Pile the beans into warm tortillas. Top with avocado, the remaining red onion, cilantro, feta if using, and a good squeeze of lime."
-      ],
-      "notes": "The beans keep for four days in the fridge and freeze well. For a vegan version, skip the feta and add pickled jalapeños or a spoonful of salsa macha.",
-      "source": "Our takeout-night copycat"
-    },
-    {
-      "id": "sunday-beef-ragu",
-      "title": "Sunday Beef Ragù",
-      "description": "A slow-simmered, deeply savoury ragù with red wine, tomatoes, and a whisper of bay. Make it on a grey afternoon and let the house do the work.",
-      "image": "images/recipes/beef-ragu.jpg",
-      "imageAlt": "Tagliatelle tossed with rich beef ragù and fresh herbs in a white bowl.",
-      "prepTime": 30,
-      "cookTime": 180,
-      "totalTime": 210,
-      "servings": "6",
-      "difficulty": "Medium",
       "categories": [
         "Dinner",
         "Comfort Food",
         "High Protein"
       ],
       "tags": [
-        "beef",
-        "slow-cooked",
-        "freezer-friendly",
-        "pasta",
-        "sunday",
-        "make-ahead"
-      ],
-      "featured": true,
-      "ingredients": [
-        {
-          "group": "Ragù",
-          "amount": "2 1/2 lb",
-          "item": "beef chuck",
-          "note": "cut into 1-inch chunks"
-        },
-        {
-          "group": "Ragù",
-          "amount": "2 tbsp",
-          "item": "olive oil"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 large",
-          "item": "yellow onion",
-          "note": "finely chopped"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1",
-          "item": "carrot",
-          "note": "finely chopped"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 stalk",
-          "item": "celery",
-          "note": "finely chopped"
-        },
-        {
-          "group": "Ragù",
-          "amount": "4 cloves",
-          "item": "garlic",
-          "note": "minced"
-        },
-        {
-          "group": "Ragù",
-          "amount": "3 tbsp",
-          "item": "tomato paste"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 cup",
-          "item": "red wine",
-          "note": "dry, such as Chianti"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 can (28 oz)",
-          "item": "crushed tomatoes"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 cup",
-          "item": "beef stock"
-        },
-        {
-          "group": "Ragù",
-          "amount": "2",
-          "item": "bay leaves"
-        },
-        {
-          "group": "Ragù",
-          "amount": "1 tsp",
-          "item": "salt"
-        },
-        {
-          "group": "To serve",
-          "amount": "1 lb",
-          "item": "spaghetti"
-        },
-        {
-          "group": "To serve",
-          "amount": "1/2 cup",
-          "item": "parmesan",
-          "note": "finely grated"
-        },
-        {
-          "group": "To serve",
-          "amount": "1 handful",
-          "item": "basil",
-          "note": "torn",
-          "optional": true
-        }
-      ],
-      "steps": [
-        "Pat the beef dry and season generously with salt and pepper. Heat the olive oil in a heavy Dutch oven over medium-high heat. Brown the beef in batches, giving each piece room, until deeply browned on all sides. Set aside.",
-        "Lower the heat to medium. Add the onion, carrot, and celery with a pinch of salt. Cook for 8–10 minutes, scraping up the browned bits, until the vegetables are soft and sweet.",
-        "Add the garlic and tomato paste. Cook for 2 minutes, stirring, until the paste darkens to brick red.",
-        "Pour in the wine and simmer for 3 minutes, scraping the bottom of the pot. Return the beef and any juices to the pot.",
-        "Add the crushed tomatoes, stock, and bay leaves. Bring to a gentle simmer, cover, and cook on low for 2 1/2–3 hours, stirring every 30 minutes, until the beef pulls apart with a fork.",
-        "Uncover and simmer for 20–30 minutes to thicken the sauce. Taste and adjust the salt. Fish out the bay leaves.",
-        "Cook the spaghetti in well-salted water until just shy of al dente. Toss with a few ladles of ragù in the pot, adding pasta water as needed. Serve with parmesan and basil."
-      ],
-      "notes": "The ragù is better the next day and freezes beautifully for up to three months. If you do not cook with wine, replace it with the same volume of beef stock plus a tablespoon of balsamic vinegar.",
-      "source": "Sunday kitchen notes"
-    },
-    {
-      "id": "buttermilk-blueberry-pancakes",
-      "title": "Buttermilk Blueberry Pancakes",
-      "description": "Tall, fluffy pancakes with bursting blueberries and crisp edges. The batter comes together in one bowl, which is exactly what weekend mornings require.",
-      "image": "images/recipes/blueberry-pancakes.jpg",
-      "imageAlt": "A small stack of blueberry pancakes with maple syrup and fresh blueberries on a white plate.",
-      "prepTime": 10,
-      "cookTime": 15,
-      "totalTime": 25,
-      "servings": "4",
-      "difficulty": "Easy",
-      "categories": [
-        "Breakfast",
-        "Comfort Food"
-      ],
-      "tags": [
-        "brunch",
-        "kid-friendly",
-        "freezer-friendly",
-        "blueberries",
-        "pancakes"
-      ],
-      "featured": true,
-      "ingredients": [
-        {
-          "group": "Dry",
-          "amount": "1 1/2 cups",
-          "item": "all-purpose flour"
-        },
-        {
-          "group": "Dry",
-          "amount": "2 tbsp",
-          "item": "sugar"
-        },
-        {
-          "group": "Dry",
-          "amount": "2 tsp",
-          "item": "baking powder"
-        },
-        {
-          "group": "Dry",
-          "amount": "1/2 tsp",
-          "item": "baking soda"
-        },
-        {
-          "group": "Dry",
-          "amount": "1/2 tsp",
-          "item": "salt"
-        },
-        {
-          "group": "Wet",
-          "amount": "1 1/2 cups",
-          "item": "buttermilk"
-        },
-        {
-          "group": "Wet",
-          "amount": "2 large",
-          "item": "eggs"
-        },
-        {
-          "group": "Wet",
-          "amount": "3 tbsp",
-          "item": "butter",
-          "note": "melted, plus more for the pan"
-        },
-        {
-          "group": "Wet",
-          "amount": "1 tsp",
-          "item": "vanilla extract"
-        },
-        {
-          "group": "Wet",
-          "amount": "1 cup",
-          "item": "blueberries",
-          "note": "fresh or frozen"
-        },
-        {
-          "group": "To serve",
-          "amount": "1/2 cup",
-          "item": "maple syrup"
-        }
-      ],
-      "steps": [
-        "Whisk the flour, sugar, baking powder, baking soda, and salt in a large bowl.",
-        "In a second bowl, whisk the buttermilk, eggs, melted butter, and vanilla until smooth. Pour the wet ingredients into the dry and fold just until no dry streaks remain. A few lumps are good.",
-        "Let the batter rest for 5 minutes while the griddle heats over medium. Fold in the blueberries last, so they do not dye the whole batter blue.",
-        "Lightly butter a nonstick griddle or skillet. Scoop about 1/4 cup batter per pancake. Cook until bubbles appear across the surface and the edges look set, about 2–3 minutes.",
-        "Flip and cook for 1–2 minutes more, until golden. Keep finished pancakes on a plate under a clean towel while you cook the rest.",
-        "Serve hot with maple syrup and extra blueberries."
-      ],
-      "notes": "No buttermilk? Stir 1 tablespoon lemon juice into 1 1/2 cups milk and let it sit for 10 minutes. Freeze leftover pancakes in a stack with parchment between them; reheat in the toaster.",
-      "source": "Grandma Ruth's recipe card"
-    },
-    {
-      "id": "ginger-scallion-noodles",
-      "title": "Ginger-Scallion Noodles",
-      "description": "A fast, punchy bowl of noodles tossed in ginger-scallion oil, soy, and chili crisp. Faster than delivery and twice as good.",
-      "image": "images/recipes/ginger-scallion-noodles.jpg",
-      "imageAlt": "Ginger scallion noodles topped with cucumber and mushrooms in a dark blue bowl.",
-      "prepTime": 10,
-      "cookTime": 10,
-      "totalTime": 20,
-      "servings": "2",
-      "difficulty": "Easy",
-      "categories": [
-        "Dinner",
-        "Vegetarian",
-        "Quick Meals"
-      ],
-      "tags": [
-        "under-30-min",
-        "noodles",
-        "spicy",
-        "pantry-friendly",
-        "vegetarian",
-        "ginger"
-      ],
-      "ingredients": [
-        {
-          "group": "Noodles & sauce",
-          "amount": "8 oz",
-          "item": "wheat noodles",
-          "note": "thin, such as lo mein"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "1 bunch",
-          "item": "scallions",
-          "note": "thinly sliced, whites and greens separated"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "2 tbsp",
-          "item": "ginger",
-          "note": "finely grated"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "3 cloves",
-          "item": "garlic",
-          "note": "finely grated"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "3 tbsp",
-          "item": "neutral oil"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "2 tbsp",
-          "item": "soy sauce"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "1 tbsp",
-          "item": "rice vinegar"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "1–2 tbsp",
-          "item": "chili crisp"
-        },
-        {
-          "group": "Noodles & sauce",
-          "amount": "1 tsp",
-          "item": "sugar",
-          "optional": true
-        },
-        {
-          "group": "To finish",
-          "amount": "1 tbsp",
-          "item": "sesame seeds",
-          "note": "toasted"
-        }
-      ],
-      "steps": [
-        "Bring a large pot of water to a boil. Cook the noodles according to the package, then drain, reserving 1/2 cup of the cooking water.",
-        "While the water heats, combine the scallion whites, ginger, and garlic in a heatproof bowl.",
-        "Warm the neutral oil in a small saucepan over medium-high heat until it shimmers. Pour it carefully over the aromatics — it will sizzle. Stir and let it steep for 2 minutes.",
-        "Add the soy sauce, rice vinegar, chili crisp, and sugar if using. Whisk to combine.",
-        "Toss the hot noodles with the sauce, adding a splash of noodle water until glossy and well coated. Scatter with scallion greens and sesame seeds. Taste and add more soy or chili crisp as needed."
-      ],
-      "notes": "This is a pantry recipe, so make it yours: add a fried egg, a handful of spinach wilted into the hot noodles, or leftover roast chicken. The ginger-scallion oil can be made a day ahead and kept in the fridge.",
-      "source": "A takeout-night copycat"
-    },
-    {
-      "id": "roasted-tomato-soup-grilled-cheese",
-      "title": "Roasted Tomato Soup & Grilled Cheese",
-      "description": "Jammy roasted tomatoes blitzed into a velvety soup, served with a properly crisp grilled cheese. The lunch that fixes most things.",
-      "image": "images/recipes/tomato-soup-grilled-cheese.jpg",
-      "imageAlt": "A bowl of roasted tomato soup with a toasted grilled cheese sandwich on a yellow plate.",
-      "prepTime": 15,
-      "cookTime": 30,
-      "totalTime": 45,
-      "servings": "4",
-      "difficulty": "Easy",
-      "categories": [
-        "Lunch",
-        "Vegetarian",
-        "Comfort Food"
-      ],
-      "tags": [
+        "chicken",
         "soup",
-        "grilled-cheese",
-        "cozy",
-        "kid-friendly",
-        "tomatoes",
-        "vegetarian"
+        "rotisserie-chicken",
+        "amish-noodles",
+        "slow-cooker",
+        "weeknight",
+        "cozy"
       ],
-      "featured": false,
+      "featured": true,
       "ingredients": [
         {
-          "group": "Soup",
-          "amount": "2 1/2 lb",
-          "item": "roma tomatoes",
-          "note": "halved lengthwise"
+          "group": "Soup base",
+          "amount": "34 oz",
+          "item": "rotisserie chicken",
+          "note": "all meat shredded or chopped"
         },
         {
-          "group": "Soup",
-          "amount": "1 large",
-          "item": "yellow onion",
-          "note": "cut into wedges"
-        },
-        {
-          "group": "Soup",
-          "amount": "4 cloves",
-          "item": "garlic",
-          "note": "peeled"
-        },
-        {
-          "group": "Soup",
-          "amount": "3 tbsp",
+          "group": "Soup base",
+          "amount": "1 tbsp",
           "item": "olive oil"
         },
         {
-          "group": "Soup",
-          "amount": "2 cups",
-          "item": "vegetable stock"
+          "group": "Soup base",
+          "amount": "4–5",
+          "item": "carrots",
+          "note": "chopped"
         },
         {
-          "group": "Soup",
-          "amount": "1/4 cup",
-          "item": "heavy cream",
+          "group": "Soup base",
+          "amount": "4 stalks",
+          "item": "celery",
+          "note": "chopped"
+        },
+        {
+          "group": "Soup base",
+          "amount": "1",
+          "item": "yellow onion",
+          "note": "diced"
+        },
+        {
+          "group": "Soup base",
+          "amount": "11–12 cups",
+          "item": "chicken broth",
+          "note": "Swanson; start with 11 cups"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1 1/2 tsp",
+          "item": "liquid aminos"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1/2–1 tsp",
+          "item": "fish sauce",
+          "note": "start with 1/2 tsp; recommended for depth",
           "optional": true
         },
         {
-          "group": "Soup",
+          "group": "Seasonings",
           "amount": "1 tsp",
-          "item": "salt"
+          "item": "garlic powder"
         },
         {
-          "group": "Soup",
+          "group": "Seasonings",
+          "amount": "2 tsp",
+          "item": "dried parsley"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1 tsp",
+          "item": "dried oregano"
+        },
+        {
+          "group": "Seasonings",
           "amount": "1/2 tsp",
+          "item": "dried thyme"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1",
+          "item": "bay leaf"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1/2 tsp",
+          "item": "sea salt",
+          "note": "adjust to taste"
+        },
+        {
+          "group": "Seasonings",
+          "amount": "1 tsp",
           "item": "black pepper"
         },
         {
-          "group": "Grilled cheese",
-          "amount": "8 slices",
-          "item": "sourdough bread"
-        },
-        {
-          "group": "Grilled cheese",
-          "amount": "8 oz",
-          "item": "cheddar",
-          "note": "thinly sliced"
-        },
-        {
-          "group": "Grilled cheese",
-          "amount": "4 tbsp",
-          "item": "butter",
-          "note": "softened"
+          "group": "To finish",
+          "amount": "2 cups",
+          "item": "egg noodles",
+          "note": "dry Amish egg noodles"
         },
         {
           "group": "To finish",
-          "amount": "1 handful",
-          "item": "basil",
-          "note": "torn",
+          "amount": "1 tbsp",
+          "item": "butter",
+          "note": "to finish"
+        },
+        {
+          "group": "To finish",
+          "amount": "2 tbsp",
+          "item": "cornstarch",
+          "note": "optional, for a thicker soup",
           "optional": true
         }
       ],
       "steps": [
-        "Heat the oven to 425°F (220°C). Toss the tomatoes, onion, and garlic with olive oil, salt, and pepper on a large sheet pan. Arrange the tomatoes cut-side up.",
-        "Roast for 25–30 minutes, until the tomatoes are collapsed and the onion edges are charred in spots. Let cool for a few minutes.",
-        "Transfer everything on the pan, including the juices, to a blender. Add the vegetable stock and blend until completely smooth. (Work in batches if your blender is small.)",
-        "Return the soup to a pot and warm gently. Stir in the cream if using. Taste and adjust the salt and pepper. Keep warm while you make the sandwiches.",
-        "Butter one side of each slice of bread. Build the sandwiches with cheddar between the unbuttered sides. Cook in a skillet over medium-low heat for 3–4 minutes per side, pressing lightly, until the bread is deep golden and the cheese has fully melted.",
-        "Ladle the soup into bowls, shower with basil if using, and serve with the grilled cheese cut on the diagonal."
+        "Shred or chop all the rotisserie chicken meat and set it aside.",
+        "Heat the olive oil in a large pot over medium-high heat. Add the carrots, celery, and onion and sauté for 4–5 minutes, until the onion is soft and translucent.",
+        "Pour in the Swanson broth. Stir in the liquid aminos, fish sauce (if using), garlic powder, parsley, oregano, thyme, bay leaf, salt, and pepper. Add the shredded chicken.",
+        "Bring to a gentle boil, then reduce the heat and simmer for 25–30 minutes, until the carrots are tender.",
+        "Remove the bay leaf. Taste the broth and adjust the seasoning — a tiny bit more liquid aminos helps if it tastes flat.",
+        "Stir in the Amish egg noodles. Cook for 8–12 minutes, checking early, until just al dente. They cook faster than regular pasta and will keep softening in the hot broth.",
+        "Optional thickening: ladle about 1 cup of hot broth into a bowl, whisk in the cornstarch until smooth, then stir it back into the pot. Simmer for 1–2 minutes.",
+        "Turn off the heat. Stir in the butter until melted — this gives the soup its classic rich finish without making it heavy.",
+        "Taste one last time and adjust the salt or pepper. Add a splash more broth if the noodles have absorbed too much liquid."
       ],
-      "notes": "The soup freezes well before the cream is added. For a plant-based version, use olive oil instead of butter on the bread and a good vegan cheddar — the soup itself is already dairy-free without the cream.",
-      "source": "Childhood classic"
+      "notes": "Slow cooker: Add everything except the noodles, cornstarch, and butter to the slow cooker. Cook on Low for 6–8 hours or High for 4–6 hours. Stir in the Amish egg noodles and cook until al dente, usually 15–25 minutes — check early. Turn off the heat, stir in the butter, and thicken with a cornstarch slurry if desired.\n\nThe liquid aminos and the small amount of fish sauce deepen the chicken flavour without tasting soy-forward or fishy. The butter at the end is the classic finishing touch. Amish egg noodles absorb a lot of liquid, so keep extra Swanson broth on hand for leftovers — the soup thickens as it sits, and reheats best with a splash more broth.",
+      "source": "Windle family kitchen"
     },
     {
       "id": "chocolate-olive-oil-cake",
@@ -725,112 +252,6 @@
       ],
       "notes": "The cake is even better on day two, wrapped tightly at room temperature. It also freezes well for up to two months. Serve with slightly sweetened whipped cream or a scoop of vanilla ice cream.",
       "source": "Birthday cake file"
-    },
-    {
-      "id": "charred-broccoli-grain-bowl",
-      "title": "Charred Broccoli Grain Bowl",
-      "description": "Deeply roasted broccoli, warm quinoa, crispy chickpeas, and a lemony tahini drizzle. A desk lunch worth looking forward to.",
-      "image": "images/recipes/broccoli-grain-bowl.jpg",
-      "imageAlt": "Charred broccoli florets over rice in a shallow white bowl.",
-      "prepTime": 15,
-      "cookTime": 20,
-      "totalTime": 35,
-      "servings": "4",
-      "difficulty": "Easy",
-      "categories": [
-        "Lunch",
-        "Vegetarian",
-        "High Protein"
-      ],
-      "tags": [
-        "meal-prep",
-        "grains",
-        "vegetables",
-        "gluten-free",
-        "lunch",
-        "tahini"
-      ],
-      "featured": false,
-      "ingredients": [
-        {
-          "group": "Bowl",
-          "amount": "2 heads",
-          "item": "broccoli",
-          "note": "cut into bite-size florets"
-        },
-        {
-          "group": "Bowl",
-          "amount": "1 can (14 oz)",
-          "item": "chickpeas",
-          "note": "drained, rinsed, and dried"
-        },
-        {
-          "group": "Bowl",
-          "amount": "3 tbsp",
-          "item": "olive oil"
-        },
-        {
-          "group": "Bowl",
-          "amount": "1 tsp",
-          "item": "smoked paprika"
-        },
-        {
-          "group": "Bowl",
-          "amount": "1 cup",
-          "item": "quinoa",
-          "note": "rinsed"
-        },
-        {
-          "group": "Bowl",
-          "amount": "1 tsp",
-          "item": "salt"
-        },
-        {
-          "group": "Dressing",
-          "amount": "1/3 cup",
-          "item": "tahini"
-        },
-        {
-          "group": "Dressing",
-          "amount": "1/3 cup",
-          "item": "Greek yogurt"
-        },
-        {
-          "group": "Dressing",
-          "amount": "1 clove",
-          "item": "garlic",
-          "note": "grated"
-        },
-        {
-          "group": "Dressing",
-          "amount": "1",
-          "item": "lemon",
-          "note": "juiced"
-        },
-        {
-          "group": "Dressing",
-          "amount": "3–4 tbsp",
-          "item": "water",
-          "note": "to thin the dressing"
-        },
-        {
-          "group": "To finish",
-          "amount": "1/4 cup",
-          "item": "pumpkin seeds",
-          "note": "toasted",
-          "optional": true
-        }
-      ],
-      "steps": [
-        "Heat the oven to 425°F (220°C). Cook the quinoa with 2 cups water and a pinch of salt: bring to a boil, cover, and simmer for 15 minutes. Turn off the heat and let it steam, covered, for 5 minutes. Fluff with a fork.",
-        "Toss the broccoli and chickpeas with olive oil, smoked paprika, and salt on a large sheet pan. Spread everything into a single layer.",
-        "Roast for 18–22 minutes, shaking the pan once, until the broccoli edges are charred and the chickpeas are crisp.",
-        "Whisk the tahini, yogurt, garlic, lemon juice, and a pinch of salt. Add water a spoonful at a time until the dressing pours easily.",
-        "Pile the quinoa into bowls. Top with the roasted broccoli and chickpeas, and spoon the tahini dressing over the top. Scatter with pumpkin seeds if using.",
-        "Serve warm, or portion into containers for lunch. Keep the dressing separate until serving."
-      ],
-      "notes": "For a vegan dressing, swap the yogurt for extra tahini and a teaspoon of maple syrup. The components keep separately in the fridge for four days — assemble bowls as you go.",
-      "source": "Desk-lunch rotation"
     }
   ]
 }

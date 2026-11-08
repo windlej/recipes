@@ -173,8 +173,10 @@ logo or decorations, look at `Header.jsx`, `Footer.jsx`, and the page hero secti
 
 Recipe photography is licensed under Creative Commons Attribution 2.0 and is credited on the
 site's [photo credits page](src/pages/CreditsPage.jsx) (data in
-`src/data/photoCredits.js`). Images were cropped to 4:3 and optimized to 1200×900 JPEGs.
-Photography is not included under any code license; it remains under the licenses shown.
+`src/data/photoCredits.js`). Images were cropped to 4:3 and optimized for the web.
+The chicken noodle soup card uses an original flat illustration created for the site.
+Third-party photography is not included under any code license; it remains under the license
+shown on the credits page.
 
 ## License
 

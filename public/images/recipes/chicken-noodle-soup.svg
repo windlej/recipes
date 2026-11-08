@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title">
+  <title id="title">Flat Bauhaus-style illustration of a bowl of chicken noodle soup</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3.5" fill="#000000" />
+    </pattern>
+    <pattern id="stripes" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="28" fill="#000000" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="#FACC15" />
+  <circle cx="810" cy="390" r="330" fill="#1D4ED8" />
+  <path d="M0 900V650a250 250 0 0 1 250 250Z" fill="#E63946" />
+  <rect x="74" y="78" width="170" height="130" fill="url(#dots)" />
+  <circle cx="1060" cy="160" r="70" fill="none" stroke="#000000" stroke-width="10" />
+  <rect x="1030" y="690" width="150" height="150" fill="url(#stripes)" transform="rotate(8 1105 765)" />
+
+  <g fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round">
+    <path d="M420 285c-42-48 40-70 0-118" />
+    <path d="M555 255c-42-48 40-70 0-118" />
+    <path d="M690 285c-42-48 40-70 0-118" />
+  </g>
+
+  <g transform="rotate(-24 950 505)">
+    <rect x="940" y="500" width="26" height="220" rx="13" fill="#000000" />
+    <ellipse cx="953" cy="478" rx="60" ry="78" fill="#FFFFFF" stroke="#000000" stroke-width="10" />
+  </g>
+
+  <circle cx="560" cy="535" r="270" fill="#FFFFFF" stroke="#000000" stroke-width="12" />
+  <circle cx="560" cy="535" r="218" fill="#FCD34D" stroke="#000000" stroke-width="8" />
+  <path d="M362 535a198 198 0 0 0 396 0" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="2 16" opacity="0.55" />
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M400 490c55-48 105-48 160 0s105 48 160 0" stroke="#000000" stroke-width="28" />
+    <path d="M400 490c55-48 105-48 160 0s105 48 160 0" stroke="#FFFFFF" stroke-width="17" />
+    <path d="M410 585c60-45 110-45 165 0s105 45 160 0" stroke="#000000" stroke-width="28" />
+    <path d="M410 585c60-45 110-45 165 0s105 45 160 0" stroke="#FFFFFF" stroke-width="17" />
+    <path d="M430 535c50-38 95-38 145 0s95 38 145 0" stroke="#000000" stroke-width="26" />
+    <path d="M430 535c50-38 95-38 145 0s95 38 145 0" stroke="#FFFFFF" stroke-width="15" />
+  </g>
+
+  <g stroke="#000000" stroke-width="6">
+    <circle cx="445" cy="445" r="26" fill="#E63946" />
+    <circle cx="655" cy="452" r="20" fill="#E63946" />
+    <circle cx="505" cy="635" r="23" fill="#E63946" />
+    <circle cx="675" cy="610" r="17" fill="#E63946" />
+  </g>
+
+  <g stroke="#000000" stroke-width="6">
+    <rect x="596" y="380" width="76" height="54" rx="18" fill="#FFFFFF" transform="rotate(12 634 407)" />
+    <rect x="430" y="590" width="66" height="46" rx="16" fill="#FFFFFF" transform="rotate(-9 463 613)" />
+    <rect x="512" y="695" width="58" height="38" rx="14" fill="#FFFFFF" transform="rotate(6 541 714)" />
+  </g>
+
+  <g fill="#2563EB">
+    <rect x="470" y="390" width="15" height="38" rx="7" transform="rotate(-28 477 409)" />
+    <rect x="700" y="520" width="14" height="34" rx="7" transform="rotate(34 707 537)" />
+    <rect x="560" y="660" width="14" height="34" rx="7" transform="rotate(-20 567 677)" />
+  </g>
+
+  <g fill="#000000">
+    <circle cx="480" cy="500" r="5" />
+    <circle cx="610" cy="610" r="5" />
+    <circle cx="690" cy="565" r="4" />
+    <circle cx="555" cy="420" r="4" />
+    <circle cx="435" cy="545" r="4" />
+    <circle cx="740" cy="610" r="5" />
+  </g>
+
+  <circle cx="120" cy="790" r="18" fill="#1D4ED8" />
+  <rect x="860" y="760" width="80" height="20" rx="10" fill="#000000" transform="rotate(-18 900 770)" />
+</svg>

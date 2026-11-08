@@ -32,9 +32,10 @@ export default function CreditsPage() {
           <p className="label-caps mt-5">The credits</p>
           <h1 className="mt-2 text-[2.8rem] leading-[0.92] sm:text-6xl">Photo credits.</h1>
           <p className="mt-4 max-w-2xl text-pretty text-base font-medium leading-relaxed sm:text-lg">
-            The recipe photographs are used under Creative Commons Attribution 2.0 licenses. Each
-            photo was cropped to a 4:3 aspect ratio for this site. Thank you to the photographers
-            who made this little cookbook look alive.
+            The recipe photograph used here is licensed under Creative Commons Attribution 2.0.
+            Photography is cropped to a 4:3 aspect ratio for the site. Thank you to the
+            photographers who made this little cookbook look alive. The chicken noodle soup
+            artwork is an original illustration made for this site.
           </p>
         </div>
       </section>

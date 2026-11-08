@@ -337,7 +337,7 @@ export default function RecipePage() {
                   </p>
                   <PencilIcon size={16} className="print-hide" />
                 </div>
-                <p className="p-5 text-sm leading-relaxed sm:text-base">{recipe.notes}</p>
+                <p className="whitespace-pre-line p-5 text-sm leading-relaxed sm:text-base">{recipe.notes}</p>
               </div>
             ) : null}
 
