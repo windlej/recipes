@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+@theme {
+  /* Digital Bauhaus palette — the only colours used across the site. */
+  --color-bauhaus-yellow: #facc15;
+  --color-bauhaus-yellow-light: #fcd34d;
+  --color-bauhaus-blue: #1d4ed8;
+  --color-bauhaus-blue-light: #2563eb;
+  --color-bauhaus-red: #e63946;
+  --color-bauhaus-red-deep: #dc2626;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+  --color-mist: #f8f8f8;
+
+  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius-card: 20px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-mist font-sans text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif font-bold tracking-[-0.02em];
+  }
+
+  ::selection {
+    background: #000000;
+    color: #facc15;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-bauhaus-blue);
+    outline-offset: 3px;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-black px-6 py-3 text-[15px] font-bold leading-tight transition-colors duration-150;
+  }
+
+  .btn:disabled {
+    @apply cursor-not-allowed border-dashed bg-mist text-black;
+  }
+
+  .btn-primary {
+    @apply bg-bauhaus-yellow text-ink hover:bg-bauhaus-yellow-light;
+  }
+
+  .btn-white {
+    @apply bg-white text-ink hover:bg-mist;
+  }
+
+  .btn-red {
+    @apply bg-bauhaus-red text-ink hover:bg-bauhaus-red-deep;
+  }
+
+  .btn-sm {
+    @apply min-h-11 px-4 py-2 text-sm;
+  }
+
+  .btn-icon {
+    @apply inline-flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full border-2 border-black bg-white text-ink transition-colors hover:bg-bauhaus-yellow;
+  }
+
+  .btn-icon:disabled {
+    @apply cursor-not-allowed border-dashed bg-mist text-black;
+  }
+
+  .chip {
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-black bg-white px-4 py-2 text-sm font-semibold leading-none text-ink transition-colors duration-150 hover:bg-mist;
+  }
+
+  .chip[data-active="true"] {
+    @apply bg-bauhaus-yellow hover:bg-bauhaus-yellow;
+  }
+
+  .chip-static {
+    @apply inline-flex min-h-8 items-center justify-center gap-1.5 rounded-full border-2 border-black bg-white px-3 py-1 text-xs font-bold leading-none text-ink;
+  }
+
+  .card {
+    @apply rounded-[20px] border-2 border-black bg-white;
+  }
+
+  .field {
+    @apply min-h-12 w-full rounded-2xl border-2 border-black bg-white px-4 py-3 font-sans text-base text-ink placeholder:text-neutral-700 focus-visible:outline-3 focus-visible:outline-bauhaus-blue;
+  }
+
+  .field-pill {
+    @apply rounded-full;
+  }
+
+  .label-caps {
+    @apply text-[11px] font-bold uppercase leading-none tracking-[0.18em];
+  }
+
+  .meta {
+    @apply text-sm font-medium text-neutral-700;
+  }
+
+  .link-plain {
+    @apply underline decoration-2 underline-offset-4 transition-colors hover:text-bauhaus-blue;
+  }
+
+  .pattern-dots {
+    background-image: radial-gradient(currentColor 1.5px, transparent 1.6px);
+    background-size: 10px 10px;
+  }
+
+  .pattern-dots-sm {
+    background-image: radial-gradient(currentColor 1.2px, transparent 1.3px);
+    background-size: 7px 7px;
+  }
+
+  .pattern-stripes {
+    background-image: repeating-linear-gradient(
+      45deg,
+      currentColor 0,
+      currentColor 3px,
+      transparent 3px,
+      transparent 12px
+    );
+  }
+
+  .pattern-grid {
+    background-image:
+      linear-gradient(currentColor 1px, transparent 1px),
+      linear-gradient(90deg, currentColor 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+
+  .divider-dotted {
+    @apply border-t-2 border-dotted border-black;
+  }
+}
+
+@layer utilities {
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scroll-mt-header {
+    scroll-margin-top: 6rem;
+  }
+
+  .animate-pop {
+    animation: pop-in 280ms ease-out both;
+  }
+
+  .animate-shuffle {
+    animation: shuffle 280ms ease-in-out;
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shuffle {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  35% {
+    transform: translateY(6px) rotate(-2deg);
+  }
+  70% {
+    transform: translateY(-4px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+/* Native dialogs use a solid black scrim: no blur, no transparency. */
+dialog::backdrop {
+  background: #000000;
+}
+
+dialog[open] {
+  animation: pop-in 220ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  @page {
+    margin: 1.4cm;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  body {
+    padding: 0 !important;
+    font-size: 11pt;
+  }
+
+  header,
+  footer,
+  nav,
+  .no-print,
+  .print-hide {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  .container-page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .print-card {
+    border: 1.5px solid #000 !important;
+    border-radius: 0 !important;
+    padding: 12pt !important;
+  }
+
+  .print-grid {
+    display: grid !important;
+    grid-template-columns: 34% 1fr;
+    gap: 20pt;
+    align-items: start;
+  }
+
+  .print-avoid-break {
+    break-inside: avoid;
+  }
+
+  .recipe-hero {
+    background: #ffffff !important;
+    border: 0 !important;
+    padding: 0 0 12pt !important;
+  }
+
+  .recipe-hero h1 {
+    font-size: 30pt;
+    line-height: 1.05;
+  }
+
+  .recipe-title {
+    font-size: 28pt !important;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  .print-steps ol > li {
+    break-inside: avoid;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+}
