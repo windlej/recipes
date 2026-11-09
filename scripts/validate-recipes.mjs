@@ -3,7 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 // Fails the production build when the recipe data is structurally invalid or a
-// photo is missing. This keeps future JSON-only edits safe.
+// referenced photo is missing. Photos themselves are optional.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dataPath = path.join(root, 'src/data/recipes.json')
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
@@ -27,7 +27,7 @@ if (!Array.isArray(data.recipes) || data.recipes.length === 0) {
 for (const [index, recipe] of (data.recipes ?? []).entries()) {
   const label = `Recipe ${index + 1} (${recipe.id || 'missing id'})`
 
-  for (const key of ['id', 'title', 'description', 'image', 'imageAlt', 'servings', 'difficulty']) {
+  for (const key of ['id', 'title', 'description', 'servings', 'difficulty']) {
     requireString(recipe, key, index)
   }
 
@@ -95,11 +95,22 @@ for (const [index, recipe] of (data.recipes ?? []).entries()) {
     }
   }
 
-  if (recipe.image) {
-    const imagePath = path.join(root, 'public', recipe.image.replace(/^\/+/, ''))
-    if (!fs.existsSync(imagePath)) {
-      errors.push(`${label}: image not found at public/${recipe.image}.`)
+  // A photo is optional. When one is supplied, its alt text and file must
+  // also be present. Missing photos render the shared "Photo coming soon" UI.
+  if (recipe.image !== undefined && recipe.image !== null && recipe.image !== '') {
+    if (typeof recipe.image !== 'string') {
+      errors.push(`${label}: "image" must be a string path when present.`)
+    } else {
+      if (typeof recipe.imageAlt !== 'string' || !recipe.imageAlt.trim()) {
+        errors.push(`${label}: "imageAlt" is required whenever "image" is set.`)
+      }
+      const imagePath = path.join(root, 'public', recipe.image.replace(/^\/+/, ''))
+      if (!fs.existsSync(imagePath)) {
+        errors.push(`${label}: image not found at public/${recipe.image}.`)
+      }
     }
+  } else if (recipe.imageAlt !== undefined) {
+    errors.push(`${label}: "imageAlt" is set but "image" is missing.`)
   }
 
   if (recipe.source !== undefined && typeof recipe.source !== 'string') {

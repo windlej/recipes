@@ -84,8 +84,11 @@ copy-paste template live in [`src/data/README.md`](./src/data/README.md).
 
 Rules of thumb:
 
-- Add the picture to `public/images/recipes/` and reference it without a leading slash, e.g.
-  `images/recipes/my-dish.jpg`.
+- **Photos are optional.** If a recipe does not have its photo yet, omit `image` and `imageAlt`.
+  The app renders a shared “Photo coming soon” placeholder. Do not generate or source stand-in
+  imagery — the owner uploads real photos separately.
+- When a photo is available, save it to `public/images/recipes/` and reference it without a
+  leading slash, e.g. `images/recipes/my-dish.jpg`.
 - Keep ingredient `item` names simple and canonical (`chicken thighs`, not
   `2 lb chicken thighs`). Quantities go in `amount`; preparation notes go in `note`.
 - Mark optional ingredients with `"optional": true` — they are excluded from fridge matching.
@@ -93,6 +96,8 @@ Rules of thumb:
 - Recipe `id` values must be unique, lowercase, hyphenated, and URL-safe.
 - Deploy after editing. Data is bundled at build time, so changes require a rebuild.
   `npm run build` runs the validator first and refuses to build broken data.
+
+Coding agents should also read [`AGENTS.md`](./AGENTS.md).
 
 ## How the fridge matcher works
 

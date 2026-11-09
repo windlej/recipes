@@ -160,6 +160,173 @@
       "source": "Windle family kitchen"
     },
     {
+      "id": "sheet-pan-birria-tacos",
+      "title": "Sheet Pan Birria Tacos",
+      "description": "Crispy, golden quesabirria tacos with tender chile-braised beef, melted cheese, and warm consomé for dipping. The sheet pan does the hard part.",
+      "prepTime": 20,
+      "cookTime": 90,
+      "totalTime": 110,
+      "servings": "6–8 tacos",
+      "difficulty": "Medium",
+      "categories": [
+        "Dinner",
+        "Comfort Food",
+        "High Protein"
+      ],
+      "tags": [
+        "birria",
+        "tacos",
+        "beef",
+        "sheet-pan",
+        "quesabirria",
+        "pressure-cooker",
+        "mexican"
+      ],
+      "featured": false,
+      "ingredients": [
+        {
+          "group": "Chiles",
+          "amount": "4",
+          "item": "guajillo chiles",
+          "note": "stemmed and seeded"
+        },
+        {
+          "group": "Chiles",
+          "amount": "2",
+          "item": "ancho chiles",
+          "note": "stemmed and seeded"
+        },
+        {
+          "group": "Chiles",
+          "amount": "2",
+          "item": "chile de árbol",
+          "note": "stemmed and seeded"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "2 lb",
+          "item": "beef chuck roast",
+          "note": "cut into large chunks"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "to taste",
+          "item": "salt"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "to taste",
+          "item": "black pepper"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "2 tbsp",
+          "item": "neutral oil"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "2",
+          "item": "roma tomatoes"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1",
+          "item": "white onion",
+          "note": "halved"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "6 cloves",
+          "item": "garlic",
+          "note": "peeled"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1 tsp",
+          "item": "mexican oregano"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1 tsp",
+          "item": "cumin"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1/2 tsp",
+          "item": "coriander"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "2 tbsp",
+          "item": "apple cider vinegar"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1 cup",
+          "item": "beef broth"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "2",
+          "item": "bay leaves"
+        },
+        {
+          "group": "Beef & sauce",
+          "amount": "1/2 stick",
+          "item": "mexican cinnamon",
+          "note": "canela"
+        },
+        {
+          "group": "Tacos",
+          "amount": "6–8",
+          "item": "tortillas",
+          "note": "flour or corn"
+        },
+        {
+          "group": "Tacos",
+          "amount": "2 cups",
+          "item": "Oaxaca cheese",
+          "note": "or mozzarella; torn or shredded"
+        },
+        {
+          "group": "To serve",
+          "amount": "1 handful",
+          "item": "cilantro",
+          "note": "torn",
+          "optional": true
+        },
+        {
+          "group": "To serve",
+          "amount": "2",
+          "item": "lime",
+          "note": "cut into wedges",
+          "optional": true
+        },
+        {
+          "group": "To serve",
+          "amount": "1/2",
+          "item": "white onion",
+          "note": "diced",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Remove the stems and seeds from the dried chiles and place them in a heatproof bowl. Cover with hot water and soak for 15–20 minutes.",
+        "Pat the beef chuck roast pieces dry and season generously with kosher salt.",
+        "Turn the pressure cooker to the sauté setting, add a drizzle of neutral oil, and sear the beef on all sides until nicely browned. Remove and set aside.",
+        "Add the tomatoes and onion straight into the pressure cooker and sear until golden. Remove and set aside.",
+        "Strain the chiles, reserving the soaking water.",
+        "Add the chiles to a blender with the tomatoes, onion, garlic, oregano, cumin, coriander, apple cider vinegar, kosher salt, black pepper, and about 1 cup of the chile water. Blend until completely smooth.",
+        "Return the seared beef to the pressure cooker. Pour the blended sauce through a fine mesh strainer over the top, using a spoon or spatula to push it through, and discard the solids left behind.",
+        "Add the beef broth, bay leaves, and cinnamon stick. Pressure cook on high for 1 hour, then allow a natural release of the steam.",
+        "Preheat the oven to 450°F. Transfer the beef from the pressure cooker to a bowl and shred it.",
+        "Strain the consomé left in the pressure cooker once more into a small pot and keep it warm on the stove. Stir about 1/2 cup of the warm consomé into the shredded beef.",
+        "Dip each tortilla in the consomé so it coats both sides, then place it on a parchment-lined baking sheet. Add the shredded beef and some torn or shredded Oaxaca or mozzarella cheese. Press firmly to seal, holding for a few seconds if needed so the tacos stay closed, then cover with a little more cheese. Bake for about 15 minutes, until golden and the cheese is bubbly.",
+        "Serve with the remaining consomé for dipping, plus lime wedges, cilantro, and diced white onion."
+      ],
+      "source": "Windle family kitchen"
+    },
+    {
       "id": "chocolate-olive-oil-cake",
       "title": "Chocolate Olive Oil Cake",
       "description": "A one-bowl chocolate cake with a tender, almost brownie-like crumb. Olive oil keeps it moist for days and makes it taste grown-up.",
