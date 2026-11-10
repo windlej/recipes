@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": 1,
     "title": "Windle Family Recipes",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "categories": [
       "Dinner",
       "Desserts",
@@ -419,6 +419,106 @@
       ],
       "notes": "The cake is even better on day two, wrapped tightly at room temperature. It also freezes well for up to two months. Serve with slightly sweetened whipped cream or a scoop of vanilla ice cream.",
       "source": "Birthday cake file"
+    },
+    {
+      "id": "thai-yellow-chicken-curry-with-potatoes",
+      "title": "Thai Yellow Chicken Curry with Potatoes",
+      "description": "A cozy one-pot yellow curry with tender chicken, golden potatoes, and coconut cream. Simmered until rich and served over jasmine rice.",
+      "prepTime": 10,
+      "cookTime": 30,
+      "totalTime": 40,
+      "servings": "6",
+      "difficulty": "Easy",
+      "categories": [
+        "Dinner",
+        "Comfort Food",
+        "High Protein"
+      ],
+      "tags": [
+        "thai",
+        "curry",
+        "chicken",
+        "coconut",
+        "one-pot",
+        "weeknight"
+      ],
+      "featured": false,
+      "ingredients": [
+        {
+          "group": "For the yellow curry",
+          "amount": "1 tbsp",
+          "item": "avocado oil"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1/2",
+          "item": "yellow onion",
+          "note": "sliced thinly"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1 lb",
+          "item": "boneless skinless chicken breasts",
+          "note": "cut into bite-sized pieces"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1/4 cup",
+          "item": "yellow curry paste"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "10",
+          "item": "baby golden yukon potatoes",
+          "note": "cut into halves or bite-sized pieces"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "14 oz",
+          "item": "unsweetened coconut cream or coconut milk",
+          "note": "one can; see notes"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1/2–1 cup",
+          "item": "water or broth"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1 heavy pinch",
+          "item": "salt"
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "2 tsp",
+          "item": "fish sauce",
+          "optional": true
+        },
+        {
+          "group": "For the yellow curry",
+          "amount": "1–2 tbsp",
+          "item": "brown sugar",
+          "optional": true
+        },
+        {
+          "group": "For serving",
+          "amount": "1/4 cup",
+          "item": "cilantro",
+          "note": "chopped"
+        },
+        {
+          "group": "For serving",
+          "amount": "2 cups",
+          "item": "uncooked jasmine rice"
+        }
+      ],
+      "steps": [
+        "Heat the oil in a large pot over medium-low heat. Add the onions and sauté for a few minutes until fragrant and softened. Add the chicken and curry paste; sauté for 3–5 minutes. Add the potatoes and stir to coat with the curry paste.",
+        "Add the coconut cream and 1/2 cup water or broth to the pot. Season with salt. Simmer for 20–30 minutes, or until the potatoes are fully cooked, adding more liquid depending on the consistency you want for the sauce. While the chicken and potatoes cook, cook the rice according to package directions.",
+        "Stir in the fish sauce and brown sugar to really take it up a notch. Add until it tastes amazing. Serve over rice."
+      ],
+      "notes": "Coconut cream gives the richest, thickest sauce; coconut milk works too and is a little lighter. Start with 1/2 cup liquid and add more as it simmers to reach the consistency you like.",
+      "source": "Lindsay"
     }
   ]
 }
