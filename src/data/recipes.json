@@ -519,6 +519,122 @@
       ],
       "notes": "Coconut cream gives the richest, thickest sauce; coconut milk works too and is a little lighter. Start with 1/2 cup liquid and add more as it simmers to reach the consistency you like.",
       "source": "Lindsay"
+    },
+    {
+      "id": "umami-boosted-chipotle-chicken-skillet",
+      "title": "Umami-Boosted Chipotle-Style Chicken (Skillet)",
+      "description": "Skillet-charred chicken thighs in a savory, umami-boosted chipotle-style marinade. Chop into bite-sized pieces for tacos, bowls, or burritos.",
+      "prepTime": 15,
+      "cookTime": 20,
+      "totalTime": 35,
+      "servings": "4–6",
+      "difficulty": "Easy",
+      "categories": [
+        "Dinner",
+        "High Protein"
+      ],
+      "tags": [
+        "chicken",
+        "chipotle",
+        "skillet",
+        "marinade",
+        "umami",
+        "weeknight",
+        "tacos"
+      ],
+      "featured": false,
+      "ingredients": [
+        {
+          "group": "Chicken",
+          "amount": "2 lb",
+          "item": "boneless skinless chicken thighs"
+        },
+        {
+          "group": "Marinade",
+          "amount": "2 Tbsp",
+          "item": "soy sauce or liquid aminos",
+          "note": "or a mix"
+        },
+        {
+          "group": "Marinade",
+          "amount": "1 Tbsp",
+          "item": "Worcestershire sauce"
+        },
+        {
+          "group": "Marinade",
+          "amount": "½–1 tsp",
+          "item": "fish sauce",
+          "note": "start with ½ tsp — this is the umami booster"
+        },
+        {
+          "group": "Marinade",
+          "amount": "2 Tbsp",
+          "item": "neutral oil",
+          "note": "avocado, canola, etc."
+        },
+        {
+          "group": "Marinade",
+          "amount": "3 cloves",
+          "item": "garlic",
+          "note": "minced (or 1 tsp garlic powder)"
+        },
+        {
+          "group": "Marinade",
+          "amount": "1½–2 tsp",
+          "item": "chili powder or ancho chile powder"
+        },
+        {
+          "group": "Marinade",
+          "amount": "1½ tsp",
+          "item": "ground cumin"
+        },
+        {
+          "group": "Marinade",
+          "amount": "1 tsp",
+          "item": "dried oregano"
+        },
+        {
+          "group": "Marinade",
+          "amount": "1–2 tsp",
+          "item": "vinegar or lime juice",
+          "note": "white or apple cider vinegar, or juice of ½ lime"
+        },
+        {
+          "group": "Marinade",
+          "amount": "½ tsp",
+          "item": "salt",
+          "note": "taste and adjust — soy + fish sauce are already salty"
+        },
+        {
+          "group": "Marinade",
+          "amount": "½ tsp",
+          "item": "black pepper"
+        },
+        {
+          "group": "Marinade",
+          "amount": "½–1 tsp",
+          "item": "mirin",
+          "note": "optional, for a touch of sweetness/balance",
+          "optional": true
+        },
+        {
+          "group": "Marinade",
+          "amount": "½–1 tsp",
+          "item": "smoked paprika",
+          "note": "optional but better, if you have it",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Mix the marinade (or blend the dried chile version — see notes).",
+        "Coat the chicken thighs thoroughly in a bag or bowl.",
+        "Marinate at least 30–60 minutes (2–8 hours is better; overnight is fine).",
+        "Heat a large skillet over medium-high heat. Add a thin film of oil.",
+        "Cook the thighs in a single layer (work in batches if needed) 5–7 minutes per side without moving them too much, until well browned/charred in spots and internal temp reaches 165°F+.",
+        "Rest 5 minutes, then chop into bite-sized pieces."
+      ],
+      "notes": "Optional upgrade (recommended for more depth): use 2 dried guajillo + 1 dried ancho. Stem and seed them, lightly toast in a dry pan 20–30 seconds per side, soak in hot water 15–20 minutes until soft, then blend with the garlic, soy/liquid aminos, Worcestershire, fish sauce, oil, vinegar/lime, and spices until smooth. Add a splash of the soaking liquid if needed.\n\nMarinating time is flexible — longer is better. Serve in tacos, rice bowls, or burritos.",
+      "source": "Windle family kitchen"
     }
   ]
 }
